@@ -1,0 +1,382 @@
+/*
+ Theme Name:   Ekommart Child
+ Theme URI:    https://demo2.wpopal.com/ekommart/
+ Description:  XStore Child Theme
+ Author:       Webiconz Technologies
+ Author URI:   https://webiconz.com/
+ Template:     ekommart
+ Version:      0.0.1
+ Text Domain:  ekommart-child
+*/
+
+.stock.available {
+  text-align: left;
+  padding: 15px 0 0;
+}
+.stock.available span.label {
+  padding: 3px 8px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 8px;
+}
+.page-title-wrapper.product h1.page-title {
+  margin: -5px 0 10px;
+  display: block;
+  font-size: 25px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 33px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: -0.01em;
+}
+div.content-area#primary {
+  width: auto;
+}
+.ekommart-product-pagination-wrap {
+  display: none;
+}
+
+.single-product
+  div.product
+  form.cart
+  .quantity.buttons_added
+  input[type="number"] {
+  pointer-events: auto;
+  height: 38px;
+  color: #595959;
+}
+
+.qty-changer {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.qtyPlus {
+  margin-top: 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 18px;
+  line-height: 16px;
+  margin-top: 2px;
+  color: #ccc;
+  font-size: 11px;
+  pointer-events: auto;
+}
+.page-title-wrapper.product h1.page-title:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background-color: #000;
+  height: 5px;
+}
+
+
+
+
+
+.product-reviews-summary.empty {margin-bottom: 10px;}
+
+.product-reviews-summary.empty .reviews-actions {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.product-reviews-summary.empty .reviews-actions .action.add {
+    line-height: 20px;
+    font-size: 14px;
+    color: #21293c;
+}
+h2.product_title.entry-title {display: none;}
+
+span.inventory_status {display: none;}
+
+.product.attribute.brand .value {color: #333;}
+
+.product.attribute.brand .type {font-weight: bolder;color: #333;}
+span.inventory_status {display: none;}
+
+h2.product_title.entry-title {display: none;}
+
+.container-column-one {margin-top: 15px;}
+
+.container-column-one .product.attribute.overview {
+    border-top: 1px dashed #979797;
+    border-bottom: 1px dashed #979797;
+    margin: 0;
+    padding: 12px 0;
+    line-height: 1.5em;
+padding-bottom: 0;color: #000;}
+
+.container-column-one strong.type {display: none;}
+.single-product div.product .woocommerce-product-gallery {}
+.single-product div.product .summary {}
+table.configurable-product-table.cart.items.data.table tr.first.last {border-bottom: 1px solid #ddd;
+    
+}
+table.configurable-product-table.cart.items.data.table tr > th, table.configurable-product-table.cart.items.data.table tr > td {text-align: left;
+vertical-align: middle;color: #000;
+
+padding-left: inherit;
+padding-right: 5px;
+padding-top: 10px;padding-bottom: 10px;}
+table.configurable-product-table.cart.items.data.table .attr-label.nowrap .sku small {color: #595959;}
+
+.single-product div.product p.price {display: none;}
+
+table.configurable-product-table.cart.items.data.table tr > th:nth-child(3), table.configurable-product-table.cart.items.data.table tr > td:nth-child(3) {text-align: center;}
+
+table.configurable-product-table.cart.items.data.table tr {border-bottom: 1px solid #ddd;}
+
+.unit-old {color: #767676;font-size: 90%;text-decoration: line-through;}
+
+table.configurable-product-table.cart.items.data.table tr > td:last-child {text-align: right;}
+
+.single-product .woocommerce-tabs ul.tabs li {padding: 10px 30px 10px 0;margin: 0 1px 0 0;float: left;
+    width: auto;box-sizing: border-box;}
+
+.single-product .woocommerce-tabs ul.tabs li a {border-bottom-width: 5px;color: #d6e3ec;position: relative;
+    padding-bottom: 0;background: #fff;
+    
+    text-decoration: none;font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    line-height: 30px;
+    padding: 0;
+    font-size: 23px;}
+
+.single-product.ekommart-full-width-content .woocommerce-tabs ul.tabs {margin-left: 0;clear: left;position: relative;padding-bottom: 0;display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: center;
+    justify-content: start;
+    list-style: none;
+    
+    text-align: left;
+    border-bottom: 5px solid #d6e3ec;
+    }
+.single-product.ekommart-full-width-content .woocommerce-tabs ul.tabs:before {content: none;}
+.single-product .woocommerce-tabs ul.tabs li.active:after {position: absolute;left: 0;bottom: -5px;height: 5px;width: 100%;}
+.single-product .woocommerce-tabs ul.tabs li.active a {color: #cc1422;}
+
+
+
+div.content-area#primary {width: 100%;}
+.single-product div.product .product_meta .posted_in:last-child {font-weight: 600;font-size: 15px;
+    
+    letter-spacing: 1px;
+    text-transform: capitalize;}
+
+.single-product div.product .product_meta .posted_in:last-child a {margin-left: 5px;color: #333;font-size: 15px;font-weight: 400;letter-spacing: 1px;text-transform: capitalize;}
+
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a.add_to_wishlist.single_add_to_wishlist:before {padding: 15px;border-radius: 100%;border: 1px solid #333;height: 20px;width: 20px;text-align: center;vertical-align: middle;}
+
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a.add_to_wishlist.single_add_to_wishlist {text-transform: uppercase;letter-spacing: 2px;}
+
+.page-title-wrapper.product {width: 100%;}/*
+ Theme Name:   Ekommart Child
+ Theme URI:    https://demo2.wpopal.com/ekommart/
+ Description:  XStore Child Theme
+ Author:       Webiconz Technologies
+ Author URI:   http://webiconz.com/
+ Template:     ekommart
+ Version:      0.0.1
+ Text Domain:  ekommart-child
+*/
+
+.stock.available {
+  text-align: left;
+  padding: 15px 0 0;
+}
+.stock.available span.label {
+  padding: 3px 8px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 8px;
+}
+.page-title-wrapper.product h1.page-title {
+  margin: -5px 0 10px;
+  display: block;
+  font-size: 25px;
+  color: #000;
+  text-transform: uppercase;
+  line-height: 33px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: -0.01em;
+}
+div.content-area#primary {
+  width: auto;
+}
+.ekommart-product-pagination-wrap {
+  display: none;
+}
+
+.single-product
+  div.product
+  form.cart
+  .quantity.buttons_added
+  input[type="number"] {
+  pointer-events: auto;
+  height: 38px;
+  color: #595959;
+}
+
+.qty-changer {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a.qtyPlus {
+  margin-top: 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 18px;
+  line-height: 16px;
+  margin-top: 2px;
+  color: #ccc;
+  font-size: 11px;
+  pointer-events: auto;
+}
+.page-title-wrapper.product h1.page-title:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  background-color: #000;
+  height: 5px;
+}
+
+
+
+
+
+.product-reviews-summary.empty {margin-bottom: 10px;}
+
+.product-reviews-summary.empty .reviews-actions {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 16px;
+}
+
+.product-reviews-summary.empty .reviews-actions .action.add {
+    line-height: 20px;
+    font-size: 14px;
+    color: #21293c;
+}
+h2.product_title.entry-title {display: none;}
+
+span.inventory_status {display: none;}
+
+.product.attribute.brand .value {color: #333;}
+
+.product.attribute.brand .type {font-weight: bolder;color: #333;}
+span.inventory_status {display: none;}
+
+h2.product_title.entry-title {display: none;}
+
+.container-column-one {margin-top: 15px;}
+
+.container-column-one .product.attribute.overview {
+    border-top: 1px dashed #979797;
+    border-bottom: 1px dashed #979797;
+    margin: 0;
+    padding: 12px 0;
+    line-height: 1.5em;
+padding-bottom: 0;color: #000;}
+
+.container-column-one strong.type {display: none;}
+.single-product div.product .woocommerce-product-gallery {}
+.single-product div.product .summary {}
+table.configurable-product-table.cart.items.data.table tr.first.last {border-bottom: 1px solid #ddd;
+    
+}
+table.configurable-product-table.cart.items.data.table tr > th, table.configurable-product-table.cart.items.data.table tr > td {text-align: left;
+vertical-align: middle;color: #000;
+
+padding-left: inherit;
+padding-right: 5px;
+padding-top: 10px;padding-bottom: 10px;}
+table.configurable-product-table.cart.items.data.table .attr-label.nowrap .sku small {color: #595959;}
+
+.single-product div.product p.price {display: none;}
+
+table.configurable-product-table.cart.items.data.table tr > th:nth-child(3), table.configurable-product-table.cart.items.data.table tr > td:nth-child(3) {text-align: center;}
+
+table.configurable-product-table.cart.items.data.table tr {border-bottom: 1px solid #ddd;}
+
+.unit-old {color: #767676;font-size: 90%;text-decoration: line-through;}
+
+table.configurable-product-table.cart.items.data.table tr > td:last-child {text-align: right;}
+@media (min-width: 768px) {
+.ekommart-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--with-images {width: 40%;}
+
+.ekommart-full-width-content.single-product div.product .woocommerce-product-gallery.woocommerce-product-gallery--with-images + .summary.entry-summary {width: 55%;}}
+
+.single-product .woocommerce-tabs ul.tabs li {padding: 10px 30px 10px 0;margin: 0 1px 0 0;float: left;
+    width: auto;box-sizing: border-box;}
+
+.single-product .woocommerce-tabs ul.tabs li a {border-bottom-width: 5px;color: #d6e3ec;position: relative;
+    padding-bottom: 0;background: #fff;
+    
+    text-decoration: none;font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    line-height: 30px;
+    padding: 0;
+    font-size: 23px;}
+
+.single-product.ekommart-full-width-content .woocommerce-tabs ul.tabs {margin-left: 0;clear: left;position: relative;padding-bottom: 0;display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -webkit-justify-content: center;
+    justify-content: start;
+    list-style: none;
+    
+    text-align: left;
+    border-bottom: 5px solid #d6e3ec;
+    }
+.single-product.ekommart-full-width-content .woocommerce-tabs ul.tabs:before {content: none;}
+.single-product .woocommerce-tabs ul.tabs li.active:after {position: absolute;left: 0;bottom: -5px;height: 5px;width: 100%;}
+.single-product .woocommerce-tabs ul.tabs li.active a {color: #cc1422;}
+
+
+
+div.content-area#primary {width: 100%;}
+.single-product div.product .product_meta .posted_in:last-child {font-weight: 600;font-size: 15px;
+    
+    letter-spacing: 1px;
+    text-transform: capitalize;}
+
+.single-product div.product .product_meta .posted_in:last-child a {margin-left: 5px;color: #333;font-size: 15px;font-weight: 400;letter-spacing: 1px;text-transform: capitalize;}
+
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a.add_to_wishlist.single_add_to_wishlist:before {padding: 15px;border-radius: 100%;border: 1px solid #333;height: 20px;width: 20px;text-align: center;vertical-align: middle;}
+
+.single-product div.product .entry-summary .yith-wcwl-add-to-wishlist > div > a.add_to_wishlist.single_add_to_wishlist {text-transform: uppercase;letter-spacing: 2px;}
+
+.page-title-wrapper.product {width: 100%;}
+table.configurable-product-table.cart.items.data.table tr > td:last-child {text-align: right;}
+.woocommerce-product-details__short-description {border-top: 1px dashed #979797;border-bottom: 1px dashed #979797;margin: 0; padding: 12px 0;line-height: 1.5em;
+}
+.woocommerce-product-details__short-description .value p {margin-bottom: 0;}
+.woocommerce-Reviews.no_reviews #comments {display: none;}
+.woocommerce-Reviews.no_reviews div#review_form_wrapper {width: 100%;}
+
+
+
